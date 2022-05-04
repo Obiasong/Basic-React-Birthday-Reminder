@@ -34,7 +34,7 @@ const Birthday = (rems) => {
     const {name, age, gender, img} = rems
     return (<div className='bdaySection'>
         <div style={{float: 'left'}}>
-            <img src={img}/>
+            <img src={img} alt=''/>
         </div>
         <div><>
             <h4>{name}</h4>
