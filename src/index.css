@@ -5,9 +5,50 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f321c6;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.bdaySection{
+  padding: 5%;
+}
+
+.article{
+  width: 50vw;
+  max-width: 400px;
+  margin: 5rem auto;
+  padding: 5%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bdaySection img{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.bdaySection div{
+  padding: 3%;
+}
+
+.btn {
+  background-color: #f321c6;
+  color: white;
+  padding: 3%;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
 }
