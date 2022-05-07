@@ -46,7 +46,7 @@ The error is usually;
 Most CI servers set it automatically. 
 Failed to compile.**
 This happens because your CI is not set to false for your build command.
-Set the CI to false by updated your build command on netlify to be;
+Set the CI to false by updating your build command on netlify to be;
 
 ### CI=false npm run build
 
